@@ -1,66 +1,69 @@
 ![alt text](https://github.com/bitDubai/media-kit/blob/master/MediaKit/Fermat%20Branding/Fermat%20Logotype/Fermat_Logo_3D.png "Fermat Logo")
 
-# Herramientas de Supervision y Control para el Servidor (Cloud Server)
+# Supervision and Control tool for servers (Cloud Server)
 
-## Introducción
+## Introduction
 
-La interconexión entre sistemas, y aplicaciones distribuidas corriendo en diferentes dispositivos es una de las necesidades fundamentales en la era de la globalización e internet, esta necesidad de compartir y buscar información es solventada a través de las redes. Fermat no escapa de esta necesidad y uno de sus primeras metas es contar con una Red Peer to Peer (The Fermat Network) para el intercambio de toda su metadata, e información relevante para su funcionamiento.
+The interconnection between systems, and distributed applications running on different devices is one of the basic needs in the era of globalization and the Internet , the need for sharing and finding information is solved through networks . Fermat does not escape this necessity and one of his first goals is to have a Peer-to-Peer Network (The Fermat Network) to exchange all their metadata, and information relevant to its operation.
 
-Las redes P2P permiten el intercambio directo de información, en cualquier formato, entre los dispositivos interconectados, una serie de nodos que se comportan como iguales entre sí, los cuales proveen y aportan el ancho de banda y computo distribuido para los recursos que hacen funcionar la red. Las redes P2P tienen muchas ventajas grandes e importantes, pero una de sus mayores problemas es su implementación debido a la complejidad que involucra como por ejemplo: la mayor parte de los nodos de Internet no disponen de una dirección IP fija o siquiera accesible para otros nodos de Internet,  los nodos que se conectan a través de redes locales como Wifi o Ethernet, de aquellos que tienen algún tipo de cortafuegos y NAT. 
+P2P networks allow direct exchange of information, in any format , within the interconnected devices, a series of nodes that behave as equals, which provide the bandwidth and resources for the distributed computing that will operate the net. P2P networks have many great and important advantages , but one of their biggest problems is its implementation because of the complexity involved such as: most Internet nodes do not have a fixed or accessible IP address to other internet nodes, nodes connected through local networks like WiFi or Ethernet, for those who have some type of firewall and NAT.
 
-En Fermat mientras que desarrollamos o implementamos nuestra red Peer to peer (The Fermat Network), hemos desarrollado un preview de la misma basada en una arquitectura Cliente-Servidor (Cloud Client y Cloud Server) la cual tiene como fin solventar temporalmente la necesidad de interconexion y comunicaciones del sistema. La arquitectura cliente-servidor es un modelo de aplicación distribuida en el que las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes, llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
+In Fermat, as we develop and implement our peer-to-peer network (The Fermat Network), we have developed a preview of it based on a client-server architecture (Cloud Client and Cloud Server) which aims to temporarily solve the need for interconnection and Communications within the system. The client-server architecture is a distributed application model in which tasks are divided between resource providers or services, called servers, and the petitioner, called clients . A customer makes requests to another program, in this case the server, who gives an answer back.
 
-## Alcance
+## Reach
 
-## Propósito general
+## Main purpose
 
-En el paradigma de Cliente - Servidor clásico no tiene la robustez de una red P2P. Cuando un servidor está caído, las peticiones de los clientes no pueden ser satisfechas. En la mayor parte de redes P2P, los recursos están generalmente distribuidos en varios nodos de la red. Aunque algunos salgan o abandonen la descarga; otros pueden todavía acabar de descargar consiguiendo datos del resto de los nodos en la red. Debido a esto es importante la supervisión temprana de los mismos.
+The classic client-server paradigm does not have the strength of a P2P network . When a server is down, the client requests can not be met . In most P2P networks, resources are usually distributed across multiple network nodes . Although some leave or abandon the download; others can still end up getting data downloaded from other nodes on the network. This makes early monitoring important.
 
-### Desarrollo Actual
+### Current development
 
-En el presente se cuenta con dos componenetes (plug-ins):
+Currently we have two components (plug-ins):
 
-El Servidor (Cloud Server) es un programa independiente que puede ser ejecutado en una computadora, y el cual tiene la responsabilidad de interactuar entre todos los clientes para transmitir los datos deseados entre ellos.
+Server (Cloud Server) is a standalone program that can be executed on a computer, and has the responsibility to interact with all customers in order to transmit the desired data between them.
 
-El Cliente (Cloud Client) este plugin es el encargado de la interacción con el servidor y construir e interpretar los paquetes de datos necesarios para ser enviados y recibidos desde el servidor (Cloud Server).
+Client ( Cloud Client) This plugin is responsible for the interaction with the server and construction and interpretation of data packages needed to be sent and received from the server (Cloud Server).
 
-### Alcance del Bounty
+### Bounty reach
 
-#### Tabla de elementos u objetivos a cumplir
-
+#### Elements chart or objectives goals
 
 
 ---
-| N° | Objetivo | Descripción | Porcentaje |
+| N° | Objective | Description | Percentage |
 |:--:|:--------:|:-----------:|:-------------:|
-| 1 |Monitoreo	| Implementar una herramienta de monitoreo, en la cual se pueda observar el estatus del servidor, en el cual se observer datos básicos como: Memoria utilizada, Carga del Cpu, Tiempo de ejecución entre otros.|  |
-| 2 | Alertas y Notificaciones | Implementar mecanismo de notificación y alerta  cuando el servidor no este disponible, presente fallas o quede poco espacio en disco |  |
-|3| Guía de Instalación | Elaborar una guía detallada de instalación y configuración del servidor en cualquier computador | |
-|4| Pruebas de Estrés |	Implementar pruebas de estrés para verificar el comportamiento y rendimiento del servidor en cuanto a concurrencia y sobrecarga de peticiones, y elaborar un informe final con los resultados de la mismas  |  |
+| 1 |Monitoring	| Implement a monitoring tool where you could see the server status where you could also see basic information like: used up memory, CPU load, execution time, among others. |  |
+| 2 | Alerts and Notifications | Implement an alerts and notifications mechanism when the server is down, fails or has little space in the disk.
+|  |
+|3| Installation Guide | Create a detailed installation and configuration guide of the server in any computer | |
+|4| Stress tests |	
+Implement stress tests to verify the behavior and performance of the server according to traffic and overload requests, and make a final report with its results |  |
 ---
 
-## Línea de tiempo
+## Timeline
 
-Sobre la base de la carga de trabajo y los recursos actuales disponibles, la fecha de entrega de esta recompensa (bounty) será **15 de Marzo**.
+Based on the workload and the current resources available, the date of delivery for this reward (bounty) will be  **March 15th**.
 
-## Evaluación
+## Evaluation
 
-Para ser considerado éxitoso esta recompensa (bounty) debe superar lo siguiente:
+In order to consider it successful this reward (bounty) must pass the following:
 
-* Todos los elementos anteriormente expuesto deben ser realizados.
+* All the elements previously exposed must be performed.
 
-* La evaluación que se realizará será en base a lo aportado, por cada uno de los desarrolladores. Se realizará un calculo matemático para determinar cuanto ha sido el aporte de la persona para completar el bounty en base a la cantidad de elementos realizados con éxito.
+* The test will be conducted based on the amount contributed by each of the developers. a mathematical calculation will be done to determine what has been the contribution of each person to complete the bounty, based of the number of elements performed successfully.
 
 
-*[Resultados de la evaluación para ser completado después de la evaluación]*
 
-## Distribución
+*[Test results to be completed after the evaluation]*
+
+## Distribution
 
 *[Distribution to be completed after evaluation]*
 
-| N° | Objetivo  | Desarrollador | Completado |
+| N° | Objective  | Developer | Completed |
 |:--:|:---------:|:-------------:| :-------------:|
-| 1  | Monitoreo | Roberto Requena ||
-| 2  | Alertas y Notificaciones | Roberto Requena | |
-| 3  | Guía de Instalación | Roberto Requena | |
-| 4  | Pruebas de Estrés | Hendry Rodriguez | |
+| 1  | Monitoring | Roberto Requena ||
+| 2  | Alerts and Notifications | Roberto Requena | |
+| 3  | Installation guide | Roberto Requena | |
+| 4  | Stress test | Hendry Rodriguez | |
+
