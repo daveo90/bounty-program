@@ -1,7 +1,7 @@
 # BOUNTY PROGRAM AGREEMENT
 
 ## PROJECT NAME
-Check the bounties’ table and tell us which project do you want to take?
+Check the table of bounties and tell us which project you would like to take
 
 ## VERSION
 What is the version?
@@ -10,7 +10,7 @@ What is the version?
 Explain the project goal
 
 ## SCOPE
-Explain what is the work included in the project. For that, provide a list of features sorted by priority. Each feature must have a short description, a size (% of the total) and the Fermat components involved. Example:
+Explain what is the work included in the project. With that, provide a list of features sorted by priority. Each feature must have a short description, a size (% of the total) and the Fermat components involved. Example:
 
 ### 1- Feature x:  
 This feature is about…  
@@ -27,14 +27,14 @@ This feature is about…
 **Size:** 55%  
 **Fermat components:** Component d, component e.
 
-Also, explain the work that is excluded of this project version.
+Also, explain the work that is excluded from this project version.
 
 ## EVALUATION
 Provide the acceptance criteria for the features described on the scope.
 
 ## TERMS AND CONDITIONS: 
 
-1.   The team agrees that project has two parts: functionality and beta testing.
+1.   The team agrees that the project has two parts: functionality and beta testing.
  
 2.  The team understands and accepts that the functionality will be considered done when all the features described on the scope of this agreement are completed and tested in an alpha stage.
  
@@ -52,7 +52,7 @@ Provide the acceptance criteria for the features described on the scope.
  
 4. The team understands and accepts that beta testing will be conducted by the @beta-testing-team.
  
-5.  The team understands and accepts that criteria to pass beta testing are: no bug issues on beta testing due date or in a period of three (3) consecutive calendar days before the due date.
+5.  The team understands and accepts that the criteria to pass the beta testing are: no bug issues on beta testing due date or in a period of three (3) consecutive calendar days before the due date.
  
 6.   The team agrees to complete the beta testing on the following conditions:
  
