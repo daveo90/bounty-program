@@ -7,7 +7,7 @@ Digital Asset Platform
 3.0
 
 ## ABSTRACT
-There is no doubt that the Digital Asset Platform is on the critical path to the sucess of our project. As Fermat evolves and new architecture is designed an implemented in all platforms, DAP must follow this approach and improve itself to acommodate future changes.
+There is no doubt that the Digital Asset Platform is on the critical path to the sucess of our project. As Fermat evolves and new architecture is designed and implemented in all platforms, DAP must follow this approach and improve itself to acommodate future changes.
 
 This bounty is mainly an architecture improvement following new guidelines to modularize our processes into smaller pieces and enable reutilization, optimization and prepare for future transactions that DAP will be supporting shortly.
 
@@ -15,8 +15,8 @@ This bounty is mainly an architecture improvement following new guidelines to mo
 
 ## SCOPE
 
-### 1- Architecture re design:  
-New architecture implementation as in [dev.fermat.org](http://dev.fermat.org). Full implementation of 33 new plugins.
+### 1- Architecture redesign:  
+New architecture implementation as in [dev.fermat.org](http://dev.fermat.org). Full implementation of 33 new plug-ins.
 
 **Size:** 40%  
 **Fermat components:** 
@@ -29,15 +29,15 @@ New architecture implementation as in [dev.fermat.org](http://dev.fermat.org). F
 * Asset For Bitcoin and Bitcoin For Asset Swap Transactions
 * Incoming Asset Metadata and Outgoing Asset Metadata
 * Incoming Crypto Transaction and Outgoin Crypto Transaction
-* Asset Issuer Statisc Aggregator
+* Asset Issuer Statistics Aggregator
 * Asset Transfer, Asset Issuing and Asset Swap Statistics Collector.
 * Asset Specific Offer
 * Digital Asset Metadata
 * Asset Issuer, Asset User and Redeem Point Actor Connection.
 * Statistics and Offer Network Services.
 
-### 2- GUI re design:  
-Graphic improvements to Wallets and sub apps.
+### 2- GUI redesign:  
+Graphic improvements to Wallets and subapps.
 
 **Size:** 30%  
 **Fermat components:** 
@@ -48,12 +48,12 @@ Graphic improvements to Wallets and sub apps.
 * Asset Factory
 
 ### 3- bitDubai Refactor:  
-Refactoring existing plugins to remove bitDubai name from components. 
+Refactoring existing plug-ins to remove bitDubai name from components. 
 
 **Size:** 0%  
 **Fermat components:** 
 
-* All existing plugins.
+* All existing plug-ins.
 
 ### 4- Incoming Assets Notification:  
 Add funcionality to allow an asset receiver to choose or deny reception of a new asset. Changes include adding:
@@ -70,13 +70,13 @@ Add funcionality to allow an asset receiver to choose or deny reception of a new
 * Asset User and Redeem Point wallets.
 
 ### 5- Outgoing Crypto Transaction events:  
-Currently only incoming crypto transactions are handled by raising events from the Crypto Reouter plugin. We are going to improve the Outgoing transactions process by using the same procedure.
+Currently only incoming crypto transactions are handled by raising events from the Crypto Reouter plug-in. We are going to improve the Outgoing transactions process by using the same procedure.
 
 **Size:** 5%  
 **Fermat components:** 
 
-* Incoming Crypto Transaction and Outgoing Crypto Transaction DAP plugins.
-* Crypto Router and CryptoNetwork plugines in BCH platform.
+* Incoming Crypto Transaction and Outgoing Crypto Transaction DAP plug-ins.
+* Crypto Router and Crypto Network plug-ins in BCH platform.
 
 ### 6- Bitcoin Fees specification:  
 Transaction fee is currently defined broadly in the platform. Bitcoin senders must be able to specify the fee amount to decide how fast the transaction will be confirmed by miner.
@@ -93,7 +93,7 @@ Also, Asset transactions fee is payed from the Asset Vault using Bitcoins from t
 
 ## EVALUATION
 
-### 1- Architecture re design: 
+### 1- Architecture redesign: 
 All existing transactions will be tested:
 
 * Asset Issuing: being able to create Assets from the Asset Factory.
@@ -112,7 +112,7 @@ All existing transactions will be tested:
 
 * Code check that the proposed architecture was followed.
 
-### 2- GUI re design:  
+### 2- GUI redesign:  
 
 Implementation of the following GitHub Issues:
 
@@ -123,7 +123,7 @@ Implementation of the following GitHub Issues:
 
 ### 3- bitDubai Refactor:
 
-Code Revision that no plugin has bitDubai in it.
+Code Revision that no plug-in has bitDubai in it.
 
 ### 4- Incoming Assets Notification:  
 
